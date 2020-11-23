@@ -1,0 +1,49 @@
+body{
+    margin-left: 40%;
+    margin-top: 10%;
+}
+input{
+    width: 100%;
+    margin-left:2px;
+    margin: 5px;
+    padding: 5px; 
+}
+table{
+    background-color: rgb(216, 209, 209);
+    margin-left: 2px;
+    border: 22px solid rgb(122, 122, 122);
+    box-shadow: 5px 5px 20px rgb(212, 144, 144), 2px 2px 50px rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+table th{
+    width: 100%;
+    color: rgb(122, 122, 122);
+    text-shadow: 2px 2px 1px rgb(66, 13, 35);
+    font-size: 30px;
+}
+table th input:hover{
+    background-color: rgb(122, 122, 122);
+    color: white;
+}
+table  td input{
+    background-color:rgb(122, 122, 122);;
+    border: none;
+    color :white;
+    border-radius: 10px;
+}
+table  input:hover{
+    background-color: rgba(28, 134, 255, 0.856);
+    box-shadow: 5px 5px 20px rgb(255, 0, 0);
+    /* animation: animate 1s ; */
+    
+}
+table th input{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border: 1px solid #ccc;
+    width: auto;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 8px;    
+}
